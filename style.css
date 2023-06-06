@@ -1,0 +1,125 @@
+body {
+font-family: sans-serif;
+font-size: 14px;
+line-height: 1.6;
+padding: 24px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+h2,h2,h4 {
+    margin-block-end: 5px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 21px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.par {
+    padding-bottom: 1em;
+    margin-block-end: 5px;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+a:hover {
+    color: #0645ad;
+    text-decoration: underline;
+}
+
+.cite {
+background-color: #f8f9fa;
+padding: 8px 32px;
+margin-bottom: 14px;
+}
+
+em, i {
+    font-style: italic;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+sup {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #0645ad;
+    vertical-align: super;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}
+
+li::marker {
+    color: black;
+}
+
+.table {
+    background-color:#f8f9fa;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #0645ad;
+    text-align: left;
+    max-width: max-content;
+    border: 1px solid;
+    border-color: black;
+    padding: 5px;
+}
+.tableheader {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.signature {
+    background-color:#f8f9fa;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #0645ad;
+    border: 1px solid;  
+    border-color: gray;
+    width: 230px;
+    height: 220px;
+    display: block;
+    float:left;
+    margin-right: 1.5em;
+}
+
+.td {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+.arch {
+    padding: 3px;
+    text-align: center; 
+}
